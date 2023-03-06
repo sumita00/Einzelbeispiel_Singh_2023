@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView antwortFromServer;
     private TextView berechnungresult;
-    private EditText martikelNr;
+    private TextView hinweisText;
+    private EditText eingabemartikelNr;
     private Button sendButton;
     private Button berechnen;
 
@@ -20,5 +21,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        berechnungresult = (TextView) findViewById(R.id.textView2);
+
+        antwortFromServer = (TextView) findViewById(R.id.textView3);
+
+        eingabemartikelNr = (EditText) findViewById(R.id.editTextNumber);
+
+        sendButton = (Button) findViewById(R.id.button);
+        berechnen = (Button) findViewById(R.id.button2);
+
     }
+
+
 }
