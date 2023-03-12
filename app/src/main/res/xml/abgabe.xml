@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <person> <name>Sumita Singh</name>
         <matrikelnummer>11904711</matrikelnummer>
-        <lastcommithash>15659b7b</lastcommithash>
+        <lastcommithash>811a6a54c4158bf44cc8f38e6f9df5856342a139</lastcommithash>
         <githubusername>sumita00</githubusername>
         <repositoryname>Einzelbeispiel_Singh_2023</repositoryname>
         <repositoryurl> https://github.com/sumita00/Einzelbeispiel_Singh_2023.git </repositoryurl>
