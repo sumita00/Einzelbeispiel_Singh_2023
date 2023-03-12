@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         private String matrikelnummer;
         private Handler messagerecivehandler = new Handler();
 
-        ExampleThread(String matrikelnummer) {
+        ExampleThread(String matrikelnummer) { //Eingegeben Mrtikelnummer
             this.matrikelnummer = matrikelnummer;
         }
         @Override
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 messagerecivehandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        antwortFromServer.setText("From Server:" + modifiedSentence);
+                        antwortFromServer.setText("From Server:" + modifiedSentence); // message empfangen und ausgeben
                     }
                 });
 
