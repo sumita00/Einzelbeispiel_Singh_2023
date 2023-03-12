@@ -10,8 +10,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="11dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="24dp"
         android:text="Gib deine Martikelnummer ein!"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber" />
@@ -30,13 +30,14 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="181dp"
+        android:layout_width="294dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="196dp"
         android:ems="10"
         android:inputType="number"
         android:text="Martikelnummer"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,8 +45,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="24dp"
         android:text="Abschicken"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
@@ -63,8 +64,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="82dp"
         android:layout_marginTop="8dp"
         android:text="ServerAntwort"
         android:textColor="@color/black"
